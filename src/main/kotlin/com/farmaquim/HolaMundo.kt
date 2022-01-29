@@ -11,7 +11,7 @@ class HolaMundo {
     @GetMapping("/hola")
     fun hola(): String
     {
-        return "Drogueria y productos de belleza"
+        return "Drogueria y productos de belleza de Miriam"
 
     }
 }
