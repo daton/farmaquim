@@ -10,13 +10,13 @@ import org.springframework.web.bind.annotation.RestController
 class HolaMundo {
 
     @GetMapping("/hola")
-    @CrossOrigin(origins = ["http://localhost:3000"])
+    @CrossOrigin(origins = ["http://localhost:4200"])
     fun hola(): String
     {
         return "Drogueria y productos de belleza de Miriam"
 
     }
-    @CrossOrigin(origins = ["http://localhost:3000"])
+    @CrossOrigin(origins = ["http://localhost:4200"])
     @GetMapping("/mensaje")
     fun enviarMensaje():Mensaje{
         var mensaje=Mensaje();
